@@ -164,6 +164,10 @@ button {
 .mailto-item:not(:last-child) {
   margin-right: 50px;
 }
+/* 
+.mailto-item::before {
+  content: "";
+} */
 
 .mailto .link {
   color: var(--primary-text-color);
@@ -233,6 +237,33 @@ button {
 
 .priority-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.priority-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.icon-antenna::before {
+  background-image: url("../images2/antenna.svg");
+}
+
+.icon-clock::before {
+  background-image: url("../images2/clock.svg");
+}
+
+.icon-diagram::before {
+  background-image: url("../images2/diagram.svg");
+}
+
+.icon-astronaut::before {
+  background-image: url("../images2/astronaut.svg");
 }
 
 /* ---------------------Чем мы занимаемся----------------- */
