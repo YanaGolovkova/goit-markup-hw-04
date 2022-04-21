@@ -161,22 +161,20 @@ button {
   display: flex;
 }
 
-.mailto-item:not(:last-child) {
-  margin-right: 50px;
+.mailto-soc-icon {
+  background-position: center;
+  margin-right: 10px;
 }
-/* 
-.mailto-item::before {
-  content: "";
-} */
 
 .mailto .link {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
 }
 
 .mailto .link:hover,
@@ -352,7 +350,7 @@ button {
 .comands-soc-link {
   width: 44px;
   height: 44px;
-  background-color: tomato;
+
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -370,8 +368,43 @@ button {
   color: #ffffff;
 }
 
-/* ------------------------About--------------------------- */
+/* ------------------------Наши клиенты--------------------------- */
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+}
 
+.section-title .subtitle {
+  margin-bottom: 50px;
+}
+
+.clients-soc-item {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-soc-item + .clients-soc-item {
+  margin-left: 30px;
+}
+
+.clients-soc-link {
+  width: 170px;
+  height: 92px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-soc-list {
+  display: flex;
+  justify-content: center;
+}
+
+/* .comands-soc-item {
+  border: 1px solid red;
+} */
 /*----------------------------- Кнопка -------------------*/
 
 .button {
@@ -517,4 +550,39 @@ button {
 .navi-item:not(:last-child) {
   margin-top: 9px;
   margin-bottom: 9px;
+}
+
+.join {
+  width: 206px;
+  height: 80px;
+}
+
+.join-soc-list {
+  display: flex;
+  justify-content: center;
+}
+
+.join-soc-item + .join-soc-item {
+  margin-left: 10px;
+}
+
+/* .join-soc-link {
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+} */
+
+.join-soc-icon {
+  fill: currentColor;
+}
+
+.join-soc-link:hover,
+.join-soc-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
