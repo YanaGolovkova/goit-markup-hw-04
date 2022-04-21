@@ -566,7 +566,7 @@ button {
   margin-left: 10px;
 }
 
-/* .join-soc-link {
+.join-soc-link {
   width: 44px;
   height: 44px;
 
@@ -575,7 +575,7 @@ button {
   justify-content: center;
   align-items: center;
   color: #afb1b8;
-} */
+}
 
 .join-soc-icon {
   fill: currentColor;
