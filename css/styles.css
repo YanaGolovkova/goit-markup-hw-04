@@ -173,13 +173,14 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 
 .mailto .link:hover,
 .mailto .link:focus {
   color: var(--accent-color);
+  fill: currentColor;
 }
 
 /* -------------------------Герой------------------------------ */
@@ -557,6 +558,16 @@ button {
   height: 80px;
 }
 
+.join-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
 .join-soc-list {
   display: flex;
   justify-content: center;
@@ -569,12 +580,12 @@ button {
 .join-soc-link {
   width: 44px;
   height: 44px;
-
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #afb1b8;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .join-soc-icon {
