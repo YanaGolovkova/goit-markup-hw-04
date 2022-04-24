@@ -325,7 +325,7 @@ button {
   width: 270px;
   height: 428px;
   border: 1px solid #eeeeee;
-  /* box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25); */
+  box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .comands-name {
@@ -393,9 +393,16 @@ button {
   border-radius: 4px;
 }
 
+.clients-soc-item:hover,
+.clients-soc-item:focus {
+  border-color: #2196F3;
+}
+
+
 .clients-soc-item + .clients-soc-item {
   margin-left: 30px;
 }
+
 
 .clients-soc-link {
   width: 170px;
