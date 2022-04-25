@@ -118,13 +118,19 @@ button {
   display: block;
   width: 294px;
   height: 16px;
-  margin-right: 305px;
+
 }
 
 .header-list {
   display: flex;
   margin-right: 331px;
+ 
 }
+
+.header-item {
+background-position: center;
+}
+
 
 .header-item:not(:last-child) {
   margin-right: 50px;
@@ -138,7 +144,8 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-}
+ }
+
 
 .header-list .link:hover,
 .header-list .link:focus {
@@ -164,11 +171,16 @@ button {
   display: flex;
 }
 
-/* .mailto-item {
+.mailto-item:not(:last-child) {
   margin-right: 30px;
-} */
+}
+
+.mailto {
+  margin-left: auto;
+}
 
 .mailto-soc-icon {
+  fill: currentColor;
   background-position: center;
   margin-right: 10px;
 }
@@ -209,7 +221,6 @@ button {
 
 .hero-title {
   color: var(--primary-white-color);
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -227,7 +238,11 @@ button {
   width: 200px;
   height: 50px;
   margin-top: 30px;
-}
+  border: none;
+  color: var(--primary-white-color);
+  }
+
+ 
 
 /* ----------------------Приоритеты---------------------- -*/
 
@@ -332,6 +347,7 @@ button {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+  background-color: var(--primary-white-color);
 }
 
 .caption {
@@ -418,20 +434,26 @@ button {
   justify-content: center;
 }
 
-/* .comands-soc-item {
-  border: 1px solid red;
-} */
+.clients-soc-icon {
+  fill: #AFB1B8;
+}
+
+.clients-soc-icon:hover,
+.clients-soc-icon:focus {
+  fill: #2196f3;
+}
+
 /*----------------------------- Кнопка -------------------*/
 
 .button {
   font-family: inherit; */
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   border-radius: 4px;
+  
 }
 
 
